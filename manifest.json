@@ -1,0 +1,20 @@
+{
+  "required_api_version": "5",
+  "name": "Spectre",
+  "description": "Spectre Passwords",
+  "developer_name": "Andrew G",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "spectre",
+      "type": "keyword",
+      "name": "Spectre",
+      "description": "Spectre Passwords",
+      "default_value": "s"
+    }
+  ]
+}
+
