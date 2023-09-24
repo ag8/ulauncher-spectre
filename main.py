@@ -41,7 +41,7 @@ class KeywordQueryEventListener(EventListener):
             ExtensionResultItem(
                 icon="images/icon.png",
                 name="Get a password from spectre",
-                description="" if not data else 'Run "%s" in shell' % data,
+                description="" if not data else 'Get the password to "%s"' % data,
                 on_enter=ExtensionCustomAction(data),
             ),
         ]
